@@ -70,11 +70,46 @@ img{
     border-radius: 50%;
 }
 
-.content {
+.titlecard {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 50px;
-    width: 90%;
+    padding-top: 40px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+    padding-left: 50px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ 
+}
+
+    .nav a {
+        float: left;
+        color: var(--white);
+        text-align: center;
+        padding-top: 5px;
+        padding-right: 16px;
+        padding-bottom: 10px;
+        padding-left: 16px;
+        text-decoration: none;
+        font-size: 2vw;
+        font-weight: bold;
+        font-style: normal;
+    }
+
+.nav a:hover {
+    color:var(--red);
+    font-weight: normal;
+    font-style: italic;
+}
+
+.nav a.active {
+    background-color: #4CAF50;
+    color: white;
 }

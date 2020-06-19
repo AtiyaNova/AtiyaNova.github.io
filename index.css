@@ -2,6 +2,7 @@
     --red: #ff6f69;
     --black: #000000;
     --yellow: #ffcc5c;
+    --white: #FFFFFF
 }
 
 html, body {
@@ -10,10 +11,6 @@ html, body {
 }
 
 h1, p {
-    color: var(--red);
-}
-
-#navbar a {
     color: var(--red);
 }
 
