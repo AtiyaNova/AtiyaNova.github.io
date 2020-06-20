@@ -12,18 +12,13 @@ h1 {
     font-size: 36px;
 }
 
-p {
-    text-align: center;
-    font-size: 18px;
-}
-
 h1 {
     font-size: 36px;
 }
 
 h2 {
     font-size: 25px;
-    font-weight: lighter;
+    font-weight: 200;
     font-style: italic;
 }
 
@@ -32,6 +27,21 @@ h3 {
     color: var(--white);
     font-weight: normal;
 }
+
+h4 {
+    font-size: 25px;
+    color: var(--white);
+    font-weight: lighter;
+    font-style:italic;
+}
+
+p {
+    font-size: 20px;
+    color: var(--red);
+    font-weight: lighter;
+    text-align: left; 
+}
+
 footer {
     position: absolute;
     bottom: 0;
@@ -47,11 +57,6 @@ button {
     display: block;
     padding: 5px 10px;
     border: none;
-}
-
-img{
-    padding: 20px;
-
 }
 
 
