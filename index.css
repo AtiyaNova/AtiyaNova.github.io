@@ -1,7 +1,7 @@
 :root {
     --red: #ff6f69;
     --black: #000000;
-    --yellow: #ffcc5c;
+    --orange: #FB9214;
     --white: #FFFFFF
 }
 
@@ -15,12 +15,12 @@ h1, p {
 }
 
 .item {
-    background: var(--yellow);
+    background: var(--orange);
 }
 
 button {
     background: var(--red);
-    color: var(--yellow);
+    color: var(--orange);
 }
 
 .featured {

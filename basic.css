@@ -12,27 +12,37 @@ h1 {
     font-size: 36px;
 }
 
-h1 {
-    font-size: 36px;
-}
-
 h2 {
     font-size: 25px;
     font-weight: 200;
     font-style: italic;
 }
 
-h3 {
+h4 {
     font-size: 20px;
     color: var(--white);
     font-weight: normal;
 }
 
-h4 {
+h3 {
     font-size: 25px;
     color: var(--white);
     font-weight: lighter;
     font-style:italic;
+}
+
+h5 {
+    font-size: 20px;
+    color: var(--orange);
+    font-weight: lighter;
+    font-style: italic;
+}
+
+h6 {
+    font-size: 20px;
+    color: var(--orange);
+    font-weight: lighter;
+    font-style: normal;
 }
 
 p {
@@ -71,7 +81,6 @@ button {
     text-align: center;
     padding-top: 40px;
     padding-right: 50px;
-    padding-bottom: 5px;
     padding-left: 50px;
 }
 
@@ -88,7 +97,6 @@ button {
     float: left;
     color: var(--white);
     text-align: center;
-    padding-top: 5px;
     padding-right: 16px;
     padding-bottom: 10px;
     padding-left: 16px;
