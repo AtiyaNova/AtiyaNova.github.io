@@ -8,8 +8,9 @@ a {
 }
 
 h1 {
-    text-align: center;
-    font-size: 36px;
+  
+    font-size: 5vw;
+    color: var(--red);
 }
 
 h2 {
@@ -33,14 +34,14 @@ h3 {
 
 h5 {
     font-size: 20px;
-    color: var(--orange);
+    color: var(--black);
     font-weight: lighter;
     font-style: italic;
 }
 
 h6 {
     font-size: 20px;
-    color: var(--orange);
+    color: var(--black);
     font-weight: lighter;
     font-style: normal;
 }
@@ -52,15 +53,6 @@ p {
     text-align: left; 
 }
 
-footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
-    footer > p {
-        font-size: 12px;
-    }
 
 button {
     margin: 0px auto;
@@ -74,49 +66,3 @@ button {
     border-radius: 50%;
 }
 
-.titlecard {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding-top: 40px;
-    padding-right: 50px;
-    padding-left: 50px;
-}
-
-.nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    padding-bottom: 100px;
- 
-}
-
-.nav a {
-    float: left;
-    color: var(--white);
-    text-align: center;
-    padding-right: 16px;
-    padding-bottom: 10px;
-    padding-left: 16px;
-    text-decoration: none;
-    font-size: 2vw;
-    font-weight: bold;
-    font-style: normal;
-}
-
-.nav a:hover {
-    color:var(--red);
-    font-weight: normal;
-    font-style: italic;
-}
-
-.highlight {
-    background-color: black;
-    display:  flex;
-}
-
-.highlight img:hover {
-    opacity: .5;
-}

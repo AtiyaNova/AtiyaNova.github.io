@@ -2,6 +2,7 @@
 .column {
     float: left;
     width: 50%;
+    padding-top:20px;
 }
 
 /* Clear floats after the columns */
@@ -9,6 +10,7 @@
     content: "";
     display: table;
     clear: both;
+
 }
 
 
@@ -17,9 +19,64 @@
     align-items: center;
     justify-content: center;
     text-align: left;
-    padding-top: 150px;
-   
 }
+
+.titlecard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 40px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 100px;
+}
+
+.nav a {
+    float: left;
+    color: var(--white);
+    text-align: center;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    text-decoration: none;
+    font-size: 2vw;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.nav a:hover {
+    color: var(--red);
+    font-weight: normal;
+    font-style: italic;
+}
+
+.highlight {
+    background-color: black;
+    display: flex;
+}
+
+    .highlight img:hover {
+        opacity: .5;
+    }
+
+.card {
+    transition: 0.3s;
+    background-color: var(--red);
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 360px;
+    height: auto;
+    padding: 20px;
+}
+
 
 /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width:600px) {

@@ -10,21 +10,8 @@ html, body {
     color: var(--red);
 }
 
-h1, p {
-    color: var(--red);
-}
-
-.item {
-    background: var(--orange);
-}
-
 button {
     background: var(--red);
     color: var(--orange);
-}
-
-.featured {
-    --yellow: #ffe55b;
-    --red: #ff5564;
 }
 
