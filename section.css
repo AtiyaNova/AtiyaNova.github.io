@@ -2,7 +2,8 @@
 .column {
     float: left;
     width: 50%;
-    padding-top:20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 /* Clear floats after the columns */
@@ -68,17 +69,19 @@
     }
 
 .card {
+    position: relative;
     transition: 0.3s;
-    background-color: var(--red);
-    background-position: 50% 50%;
+    background-color: #ff9a96;
     background-size: cover;
-    width: 360px;
+    width: 380px;
     height: auto;
     padding: 20px;
+    box-shadow: var(--red) 15px 15px;
 }
 
 
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+/*    
+ Responsive layout - makes the three columns stack on top of each other instead of next to each other */
 @media screen and (max-width:600px) {
     .column {
         width: 100%;
