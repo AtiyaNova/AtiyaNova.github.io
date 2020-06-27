@@ -10,8 +10,4 @@ html, body {
     color: var(--red);
 }
 
-button {
-    background: var(--red);
-    color: var(--orange);
-}
 
